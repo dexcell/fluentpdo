@@ -12,7 +12,7 @@
  * @method SelectQuery  having(string $column) add HAVING query
  * @method SelectQuery  orderBy(string $column) add ORDER BY to query
  * @method SelectQuery  limit(int $limit) add LIMIT to query
- * @method SelectQuery  offset(int $offset) add OFFSET to query
+ * @method SelectQuery  offset(mixed $offset) add OFFSET to query
  */
 class SelectQuery extends CommonQuery implements Countable {
 
