@@ -1,5 +1,5 @@
 {
-	"name": "lichtner/fluentpdo",
+	"name": "dexcell/fluentpdo",
 	"description": "FluentPDO is small PHP library for rapid query building. Killer feature is smart join builder which generates joins automatically.",
 	"keywords": ["database", "dbal", "pdo"],
 	"homepage": "http://fluentpdo.com/",
