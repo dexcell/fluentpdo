@@ -8,7 +8,7 @@ abstract class CommonQuery extends BaseQuery {
 	protected $joins = array();
 
 	/** @var boolean disable adding undefined joins to query? */
-	protected $isSmartJoinEnabled = true;
+	protected $isSmartJoinEnabled = false;
 
 	public function enableSmartJoin() {
 		$this->isSmartJoinEnabled = true;
