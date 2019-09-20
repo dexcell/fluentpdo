@@ -111,6 +111,14 @@ $query = $fpdo->from('article')->where('id', 1);
 $query = $fpdo->from('user', 1);
 ```
 
+```php
+// Where in
+$query = $fpdo->from('article')->where('id', (1, 2, 3));
+// Where not in
+$query = $fpdo->from('article')->where('id not', (1, 2, 3));
+$query = $fpdo->from('article')->where('not id', (1, 2, 3));
+```
+
 ##### INSERT
 
 ```php
